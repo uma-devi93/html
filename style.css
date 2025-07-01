@@ -1,0 +1,223 @@
+* {
+     
+    padding: 3px;
+    margin:2px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlJEHvf1z-YoIoLMtlKehTtgtis4IxKCz4W8KeDWJEv5vr9i3pOvPSvXujaLmw-OJKn20&usqp=CAU);
+     background-size: cover;
+    background-position: center;
+    color: rgb(14, 13, 13);
+    font-size: 150%;
+}
+   
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: medium;
+}
+nav ul li a:hover {
+    color: rgb(13, 14, 13);
+}
+.content {
+    position: absolute;
+    top:20%;
+    left:10%;
+    background: linear-gradient(violet,indigo,blue,green,yellow,red);
+    text-align: center;
+}
+h3{
+    color: brown;
+}
+.about{
+    background-color: rgb(236, 26, 78);
+    width:100%;
+    padding: 100px 0px;
+}
+.main {
+    width:1000px;
+    display:flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text {
+    font-size: 25px;
+    text-transform:capitalize;
+    margin-bottom: 30px;
+}
+.about-text h3{
+    font-size: medium;
+    text-transform: capitalize;
+    color: bisque;
+     letter-spacing: 1px;
+    
+}
+button {
+    background-color:  rgb(41, 230, 126);
+    border-radius:3px solid transparent;
+    font-weight: bold;
+    padding:15px 13px;
+    border-radius:15px;
+
+}
+.Skills {
+    background-color: rgb(218, 199, 209);
+    text-align: center;
+    height:80vh;
+    width: 100%;
+    display: grid;
+    place-items:center;
+    position:relative;
+    margin:auto;
+   
+}
+.container{
+    display: flex;
+    gap: 10px;
+    animation: scroll 20s linear infinite;
+     text-shadow: 4px 4px 4px red;
+     background: linear-gradient(violet,indigo,blue,green,yellow,red);
+}
+
+.card {
+    background-color: aquamarine;
+    min-height: 200px;
+    min-width:250px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+
+}
+ .card h2 {
+    color: blue;
+
+ }
+.card:nth-child(odd) {
+    background:linear-gradient(-229deg,yellow,grey)
+    
+}
+.card:nth-child(even) {
+    background:linear-gradient(-227deg,green,pink)
+}
+@keyframes scroll {
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*2));
+    }
+}
+.box {
+    width: 100%;
+    height: 100%;
+     background-color: chocolate;
+    
+}
+.box h1 {
+    color: rgb(100, 228, 174);
+    text-align: center;
+
+}
+.projects {
+    display: flex;
+    min-height:400px ;
+    align-items:center;
+    justify-content: center;
+}
+.pro {
+    height:300px;
+    width: 330px;
+    padding: 20px 30px;
+    background-color: green;
+    margin: 15px;
+    border-radius: 20px;
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.box p{
+    line-height: 16px;
+    margin: 20px;
+    font-size: 20px;
+}
+ .contact {
+    color: rgb(14, 14, 14);
+    background-color: rgb(253, 240, 240);
+    height: 70vh;
+    width: 100%;
+
+}
+.contact-box{
+    display: flex;
+    background:#b1d857;
+
+   
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: black;
+}
+.contact-right{
+    flex-basis:40%;
+    padding: 20px;
+    background-color: aqua;
+    
+}
+.contact h1 {
+margin-bottom: 10px;
+    text-align: center;
+    
+}
+.contact-left input{
+    color: black;
+
+} 
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group {
+    flex-basis: 45%;
+
+}
+.input {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid pink;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
+
+}
+

@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(240, 233, 233);
+
+}
+.navbar-link{
+    color: rgb(183, 212, 14);
+    font-size: 1rem;
+    font-weight: 100;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgb(109, 23, 180);
+}
+.navbar-brand{
+    color: rgb(183, 212, 14);
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.about img {
+  border:black 
+}
+.projects .card {
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
+.hero {
+  background-color: #111111;
+}
+
+.about img {
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.projects .card {
+  transition: transform 0.2s ease-in-out;
+}
+.projects .card:hover {
+  transform: translateY(-5px);
+}
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+             width:500px;
+            height:400px;
+            background-color: rgb(195, 44, 124);
+            color:black;
+            text-align: center;
+            margin: auto;
+            padding: 20px
+        }
+        td{
+            font-size: 20px;
+            padding: 20px;
+        }
+        input[type="submit"]
+        {
+            width: 100px;px;
+            height:50px;
+        }
+         input[type="text"],
+         input[type="email"],
+         textarea
+          {
+            width:300px;
+         }
+    </style>
+</head>
+<body>
+      <form action="success.html" method="post">
+        <table border="1">
+            <caption style="font-weight: bolder;font-size: 25px;">SignUp</caption>
+    <tr>
+        <td><label>Name</label></td>
+        <td><input type="text" name="Name" value=""required/></td>
+    </tr>
+    <tr>
+        <td><label>Email</label></td>
+        <td><input type="email" name="Email" value="" required/></td>
+    </tr>
+    <tr>
+        <td><label>Subject</label></td>
+        <td><input type="text" name="Subject" value=""required/></td>
+    </tr>
+    <tr>
+        <td><label>Message</label></td>
+        <td><input type="text" name="Massage" value=""required/></td>
+    </tr>
+    <tr>
+        <td colspan="4"><input type="submit"  value="SendMassage"/></td>
+    </tr>
+    
+</body>
+</html>

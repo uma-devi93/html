@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+     <style>
+        table{
+            width:500px;
+            height:400px;
+            background-color: aqua;
+            color:black;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+        }
+        td{
+            font-size: 20px;
+            padding: 20px;
+        }
+        input[type="submit"]
+       
+        {
+            width:90px;
+            height:50px;
+        }
+         input[type="text"],
+         input[type="email"],
+         input[type="number"],
+         textarea
+          {
+            width:300px;
+         }
+    </style>
+</head>
+<body>
+    <form action="success.html" method="post">
+        <table border="1">
+            <caption style="font-weight: bolder;font-size: 25px;">SignUp</caption>
+            <tr>    
+                <td><label>Name:</label></td>
+                <td><input type="text" name="Name" value="" required/></td>
+            </tr>
+             <tr>
+                <td><label>Phonenumber:</label></td>
+                
+                <td><input type="text" pattern="[0-9]{10}" name="phoneno" value="" required/></td>
+            </tr>
+             <tr>
+                <td><label>Address:</label></td>
+                <td><textarea row="3" col="10" required>coimbatore</textarea></td>
+            </tr>
+             <tr>
+                <td><label>email:</label></td>
+                <td><input type="email" name="email" value="" required/></td>
+            </tr>
+             <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" name="Gender" value="male"/>male
+                <input type="radio" name="Gender" value="female"/>female</td>
+            </tr>
+            <tr>
+                <td><label>language:</label></td>
+                <td><input type="checkbox" name="language" value="English"/>English
+                <input type="checkbox" name="language" value="Tamil"/>Tamil
+                 <input type="checkbox" name="language" value="Hindi"/>Hindi
+            </td>
+            </tr>
+            <tr>
+                <td><label>qualification:</label></td>
+                <td><select>
+                    <option>BSC</option>
+                     <option>Btech</option>
+                      <option>MSC</option>
+                       <option>BE</option> 
+                       <option>Bcom</option>
+                        <option>BCA</option>
+                         <option>Mtech</option>
+                          <option>MCA</option> 
+                </select></td>
+            </tr>
+             <tr>
+               
+                <td colspan="2"><input type="submit"  value="SignUp"/></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

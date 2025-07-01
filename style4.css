@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.9;
+  background: #eb62c9;
+  color: #080808;
+  font-style: normal;
+  
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+  border-radius: 20px;
+ 
+
+}
+
+header {
+      
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+nav {
+  float: right;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.Work-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 calc(50% - 20px);
+  background: #eee;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+.contact {
+    color: rgb(14, 14, 14);
+    background-color: rgb(253, 240, 240);
+    height: 70vh;
+    width: 100%;
+
+}
+.contact-box{
+    display: flex;
+    background:#b1d857;
+    padding: 5px,5px;
+    justify-content: center;
+
+   
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 20px ;
+    color: black;
+}
+.contact-right{
+    flex-basis:40%;
+    padding: 20px;
+    background-color: aqua;
+    
+}
+.contact h1 {
+margin-bottom: 10px;
+    text-align: center;
+    
+}
+.contact-left input{
+    color: black;
+
+} 
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+.input-row .input-group {
+    flex-basis: 45%;
+
+}
+.input {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid rgb(74, 14, 185);
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
+    padding: 5px;
+
+}
+
+
+
+@media (max-width:768){
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card {
+    flex: 1 1 100%;
+  }
+
+  .logo, nav {
+    float: none;
+    text-align: center;
+    margin: 10px 0;
+  }
+}

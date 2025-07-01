@@ -1,0 +1,46 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  background-color: #0b0d0f;
+  align-items: center;
+}
+
+.about img {
+  border-radius: 10px;
+}
+
+.projects .card {
+  body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  background-color: #111111;
+}
+
+.about img {
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.projects .card {
+  transition: transform 0.2s ease-in-out;
+}
+.projects .card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  font-size: 14px;
+}
+
+}
+.projects .card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  font-size: 14px;
+}
