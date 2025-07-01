@@ -1,0 +1,54 @@
+* body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+form{
+
+    border: 3px solid wheat;
+   
+}
+input [type="text"],
+input [type="password"]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px  solid #ccc;
+    box-sizing: border-box;
+    
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+.canclebtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+}
+.imgcontainer{
+    text-align: center;
+    margin: 24px 12px;
+}
+.imgcontainer img{
+    width: 20px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+span .psw{
+    float:right;
+    padding-top:60px;
+
+}
+@media (min-width:200px) and(max-width:350px)
+{
+    span .psw{
+        display: block;
+        float: none;
+    }
+}
